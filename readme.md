@@ -28,7 +28,7 @@ Or Sample Configuration with Options
         'via' => \Chrismcintosh\LaravelLogS3Driver\LaravelLogS3Driver::class,
         'disk' => 's3',
         'mirror_style' => 'single',
-        'directory' => 'my/custom/logs/path'
+        'log_directory' => 'my/custom/logs/path'
     ],
 ```
 
